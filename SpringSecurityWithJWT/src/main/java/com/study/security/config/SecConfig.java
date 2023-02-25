@@ -11,7 +11,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.study.security.config.services.MyUserDetailsService;
+import com.study.security.services.MyUserDetailsService;
 
 @EnableWebSecurity
 public class SecConfig extends WebSecurityConfigurerAdapter {

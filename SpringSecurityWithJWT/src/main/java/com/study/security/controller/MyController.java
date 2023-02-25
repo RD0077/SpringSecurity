@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.study.security.config.services.MyUserDetailsService;
 import com.study.security.model.AuthenticationRequest;
 import com.study.security.model.AuthenticationResponce;
+import com.study.security.services.MyUserDetailsService;
 import com.study.security.utils.JWTUtils;
 
 @RestController
