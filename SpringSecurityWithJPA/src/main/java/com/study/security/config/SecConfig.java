@@ -9,9 +9,11 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import com.study.security.service.MyUserDetailsService;
+
 public class SecConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
-	UserDetailsService userDetailsService;
+	MyUserDetailsService userDetailsService;
 
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
